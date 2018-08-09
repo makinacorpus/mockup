@@ -1,6 +1,39 @@
 Changelog
 =========
 
+2.7.5 (unreleased)
+------------------
+
+Breaking changes:
+
+- *add item here*
+
+New features:
+
+- pat-structure: Use the datatables pattern for sorting columns 
+  [frapell]
+
+- pat-structure: Add a '250' option for the pagination
+  [frapell]
+
+- Add a new pattern, to provide the DataTables functionality
+  https://datatables.net/
+  [frapell]
+- *add item here*
+
+Bug fixes:
+
+- TinyMCE: Do not fail if initializing with another language or external script
+  https://github.com/plone/Products.CMFPlone/issues/2425
+  [frapell]
+
+- Get rid of obsolete ``X-UA-Compatible`` header.
+  [hvelarde]
+
+- fix small message typos
+  [tkimnguyen]
+
+
 2.7.4 (2018-06-21)
 ------------------
 
